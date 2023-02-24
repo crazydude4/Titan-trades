@@ -1,0 +1,285 @@
+body{
+    margin: 0%;
+}
+/*header*/
+.header{
+    border: 0px solid forestgreen;
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+/*header logo and site name*/
+.header .first{
+    height: 35vh;
+    width: 27%;
+    border: 0px solid red;
+}
+.header .first img{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.header .first h1{
+    margin-top: 20%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+    float: left;
+}
+/*header links and login with sign up*/
+.header .second{
+    width: 78%;
+    height: 35vh;
+    border: 0px solid blue;
+}
+.header .second aside{
+    border: 0px solid yellow;
+    height: 11vh;
+    margin: 0%;
+}
+.header ul{
+    float: right;
+}
+.header a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color:#776E6F;
+}
+.header .ac{
+    color: orange;
+}
+.header .second .middle{
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+    overflow: hidden;
+}
+.header .second .middle .signup{
+    height: 75px;
+}
+/*main site body*/
+.mainbody{
+    border: 0px solid saddlebrown;
+    height: auto;
+    width: 100%;
+}
+.mainbody section{
+    height: 80vh;
+    border: 0px solid gold;
+    margin-bottom: 5%;
+}
+/*first section of the mainbody*/
+.mainbody .un{
+    background-image: url(./asset/1st.jpg);
+    background-size: cover;
+    position: relative;
+}
+.mainbody .un aside{
+    height: 100%;
+    width: 70%;
+    border: 0px solid blue;
+    margin-left: 15%;
+    color: white;
+}
+.mainbody .un aside h1{
+    font-size: 50px;
+    margin-left: 20%;
+}
+.mainbody .un aside p{
+    font-size: 35px;
+    margin-left: 6%;
+}
+.mainbody .un aside .human{
+    margin-left: 13%;
+}
+.mainbody .un aside .human b{
+    color: darkorange;
+}
+.mainbody .un aside .else{
+    font-size: 50px;
+    margin-top: -2%;
+}
+.mainbody .un aside .else b{
+    color: red;
+}
+.mainbody .un aside a{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+    border: 3px solid green;
+    border-radius: 30px;
+    text-decoration: none;
+    color: green;
+    padding: 1%;
+}
+.mainbody .un aside .aco{
+    background-color: green;
+    color: white;
+}
+.mainbody .un aside .stay{
+    margin-top: -4.1%;
+}
+/*second section of the mainbody*/
+.mainbody .deux{
+    display: flex;
+}
+.mainbody .deux aside{
+    height: 100%;
+    width: 25%;
+    border: 0px solid yellow;
+    text-align: center;
+}
+.mainbody .deux aside img{
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+}
+.mainbody .deux aside h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.mainbody .deux aside p{
+    font-size: 25px;
+    font-weight: 550;
+}
+/*third section of the mainbody*/
+.mainbody .tries{
+    display: flex;
+}
+.mainbody .tries aside{
+    width: 50%;
+    height: 100%;
+    border: 0px solid brown;
+
+}
+.mainbody .tries aside img{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(160, 218, 174);
+}
+.mainbody .tries aside .take{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+.mainbody .tries aside .trade{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-bottom: 8%;
+}
+.mainbody .tries aside a{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+    border: 3px solid green;
+    border-radius: 30px;
+    text-decoration: none;
+    color: green;
+    padding: 1%;
+}
+/*fourth section of the mainbody*/
+.mainbody .quatre{
+    display: flex;
+}
+.mainbody .quatre aside{
+    width: 50%;
+    height: 100%;
+    border: 0px solid red;
+}
+.mainbody .quatre aside .roll{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+.mainbody .quatre aside .our{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-bottom: 7%;
+}
+.mainbody .quatre .four img{
+    width: 100%;
+    height: 100%;
+}
+.mainbody .quatre aside a{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+    border: 3px solid green;
+    border-radius: 30px;
+    text-decoration: none;
+    color: green;
+    padding: 1%;
+}
+/*fifth section of the mainbody*/
+.mainbody .cent {
+    display: flex;
+}
+.mainbody .cent aside{
+    width: 50%;
+    height: 100%;
+    border: 0px solid blue;
+}
+.mainbody .cent aside img{
+    width: 100%;
+    height: 100%;
+}
+.mainbody .cent aside .edu{
+    font-size: 45px;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+.mainbody .cent aside .tion{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-bottom: 7%;
+}
+.mainbody .cent aside a{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+    border: 3px solid green;
+    border-radius: 30px;
+    text-decoration: none;
+    color: green;
+    padding: 1%;
+}
+/*sixth section of the mainbody*/
+.mainbody .six{
+    height: 50vh;
+}
+.mainbody .six aside{
+    width: 90%;
+    height: 60%;
+    background-color: black;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-top: 3%;
+    display: flex;
+}
+.mainbody .six aside .ready{
+    font-size: 40px;
+    background-color: orange;
+    color: white;
+    height: 47px;
+    margin-left: 3%;
+}
+.mainbody .six aside .new{
+    float: right;
+    margin-left: 14%;
+    font-size: 30px;
+    margin-top: 3%;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+    height: 40px;
+    padding: 1%;
+}
+.mainbody .six h5{
+    text-align: right;
+    margin-right: 5%;
+    font-size: 20px;
+}
